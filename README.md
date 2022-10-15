@@ -20,7 +20,7 @@
 ### Export
 ```js 
     /**
-     * @description Used to match provided roles IDs and/or users' IDs against players' roles' IDs and/or players' IDs
+     * Used to match provided roles IDs and/or users' IDs against players' roles' IDs and/or players' IDs
      * @param PlayerId The player's server ID, or Discord ID
      * @param Roles An array or roles' IDs or users' IDs
      * @param Guild A guild ID (Optional)
@@ -53,7 +53,7 @@ Outcome
 ### Export
 ```js
     /**
-     * @description Gets all players' guild/roles
+     * Gets all players' guild/roles
      * @param PlayerId The player's server ID, or Discord ID
      * @param Guild A guild ID (Optional)
      * @returns array
@@ -128,7 +128,7 @@ Outcome
 ### Export
 ```js 
      /**
-     * @description Used to get all of the allowed guilds or search for one within the allowed guilds for the members' roles to be fetched from; guilds must be registered in the config
+     * Used to get all of the allowed guilds or search for one within the allowed guilds for the members' roles to be fetched from; guilds must be registered in the config
      * @param GuildID The guild ID (Option)
      * @return object
      */
@@ -171,7 +171,7 @@ Outcome
 ### Export
 ```js 
      /**
-     * @description Get the players' discord ID from the server ID
+     * Get the players' discord ID from the server ID
      * @param PlayerId The player's server ID, or Discord ID
      * @return string
      */
@@ -200,7 +200,7 @@ Outcome
 ### Export
 ```js 
      /**
-     * @description Get the players' server ID from the discord ID
+     * Get the players' server ID from the discord ID
      * @param PlayerId The player's server ID, or Discord ID
      * @return number
      */
@@ -233,7 +233,7 @@ Outcome
 ### Export
 ```js 
     /**
-     * @description Used to match provided roles IDs and/or users' IDs against players' roles' IDs and/or players' IDs
+     * Used to match provided roles IDs and/or users' IDs against players' roles' IDs and/or players' IDs
      * @param Roles An array or roles' IDs or users' IDs
      * @param Guild A guild ID (Optional)
      * @returns boolean
@@ -264,7 +264,7 @@ Outcome
 ### Export
 ```js
     /**
-     * @description Gets all players' guild/roles
+     * Gets all players' guild/roles
      * @param Guild A guild ID (Optional)
      * @returns array
      */
@@ -328,7 +328,7 @@ Outcome
 ### Export
 ```js 
      /**
-     * @description Used to get all of the allowed guilds or search for one within the allowed guilds for the members' roles to be fetched from; guilds must be registered in the config
+     * Used to get all of the allowed guilds or search for one within the allowed guilds for the members' roles to be fetched from; guilds must be registered in the config
      * @param GuildID The guild ID (Option)
      * @return object
      */
@@ -371,7 +371,7 @@ Outcome
 ### Export
 ```js 
      /**
-     * @description Get the players' discord ID from the server ID
+     * Get the players' discord ID from the server ID
      * @return string
      */
     exports('Permissions.GetDiscordID', () => DiscordID);
@@ -393,7 +393,7 @@ Outcome
 ### Export
 ```js 
      /**
-     * @description Get the players' server ID from the discord ID
+     * Get the players' server ID from the discord ID
      * @return number
      */
     exports('Permissions.GetServerID', () => ServerID);
